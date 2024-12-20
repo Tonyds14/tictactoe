@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    height: 100vh;
+    background-image: url("images/homebackground.png");
+    /* background-size: cover; */
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  h1, form {
+    text-align: center;
+  }
+  
+  .button {
+    display: block;
+    margin: 10px auto;
+  }
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-row input[type="text"] {
+    width: 200px; 
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color:#2b5d87;
+    font-family: Helvetica, sans-serif;
+}
+
+p {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #336ea0;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+#createGame {
+    background-color: #01796F; /* Use the desired matte green color */
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    /* Add any additional styling you may need */
+}
+
+#joinGame {
+    background-color: #013A63; /* Use the desired matte green color */
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    /* Add any additional styling you may need */
+}
+
+#resetGame {
+    color: white;
+    font-weight: bold;
+    background-color: #c62828; /* Use the desired matte red color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    /* Add any additional styling you may need */
+}
+
+#checkGame {
+    color: white;
+    font-weight: bold;
+    background-color: #FC6A03; /* Use the desired matte red color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    /* Add any additional styling you may need */
+}

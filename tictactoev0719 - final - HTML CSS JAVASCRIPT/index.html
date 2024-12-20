@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe Main</title>
+    <link rel="stylesheet" href="indexstyle.css" />
+  </head>
+  <body>
+    <h1>Tic Tac Toe!</h1>
+    <form id="gameForm">
+      <div class="form-row">
+        <input
+          type="text"
+          id="inputPlayerName"
+          name="inputPlayerName"
+          placeholder="Player Name (Optional)"
+        />
+      </div>
+      <div class="form-row">
+        <input
+          type="text"
+          id="inputGameKey"
+          name="inputGameKey"
+          placeholder="Game ID (Required)"
+          required
+        />
+      </div>
+      <button type="submit" id="joinGame" class="button">Join Game</button>
+      <!-- <button id ="resetGame" class="button">Reset Game ID</button> -->
+    </form>
+    <p id="message1"></p>
+    <p id="message2"></p>
+    <script src="indexJS.js"></script>
+  </body>
+</html>
