@@ -3,9 +3,10 @@ exercise for tictactoe
 - html,javascript and css - for the user interface. 2 active browser for each players
 
 Pre-requisites
-1. payara-5.2021.8 installed
-2. jre-8u371-windows-x64.exe
-3. TicTacToeServer.war (war file) was given and should be deployed in payara server
+1. payara-5.2021.8 installed - https://drive.google.com/file/d/1xNku6sv6d7O6_8GwS_K6pmaPKcVhcYL1/view?usp=sharing
+2. jre-8u371-windows-x64.exe (in case needed) - https://drive.google.com/file/d/1TtPHstDELhqFwcO6BvBbO_v5ufgFvp_b/view?usp=sharing
+3. TicTacToeServer.war (war file) was given and should be deployed in payara server - https://drive.google.com/file/d/1YU1ED24wMspdSxZri-IC_M_JlRr5vJ-h/view?usp=sharing
+behavior of servelet(TicTacToeServer.war) was documented in https://docs.google.com/spreadsheets/d/1jP6NO8skG2vtiAorDTwfy1PRW1Wvz7PMHVbN30efbbY/edit?usp=sharing
 4. launching of web app is thru VS Code (Live Server Extension should also be installed).
 
 Starting Payara Server
@@ -80,4 +81,4 @@ Note:
 This is the initial version and still has some scenario not covered. 
 This version has no DB, and data is only stored in array. No reference for historical data.
 
-behavior of servelet(TicTacToeServer.war) was documented in https://docs.google.com/spreadsheets/d/1jP6NO8skG2vtiAorDTwfy1PRW1Wvz7PMHVbN30efbbY/edit?usp=sharing
+
