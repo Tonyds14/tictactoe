@@ -1,4 +1,4 @@
-# tictactoe
+# tictactoe - html, css, js
 exercise for tictactoe
 - html,javascript and css - for the user interface. 2 active browser for each players
 
